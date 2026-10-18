@@ -60,7 +60,7 @@ export default function LoginPage() {
 
     if (
       email.trim().toLowerCase() !== "pos@admin.com" ||
-      password !== "Admin@123"
+      password !== "Pos@123"
     ) {
       setFieldErrors({ password: "Invalid email or password. Please try again." });
       return;
